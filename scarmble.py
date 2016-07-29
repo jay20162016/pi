@@ -1,6 +1,6 @@
 #!/usr/bin/python2.7
 
-#no need to execute using the python command, execute using the ./scramble.py command
+#no need to execute using the python command, execute using the ./scramble.py command this file's dir
 
 import sys
 
