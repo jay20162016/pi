@@ -1,18 +1,16 @@
 #!/usr/bin/python2.7
 
-#no need to execute using the python command, execute using the ./scramble.py command
-
 import sys
 
-num1  = sys.argv[0]
+num1  = int(sys.argv[0])
 oldnum1 = num1
-num2  = sys.argv[1]
+num2  = int(sys.argv[1])
 oldnum2 = num2
-num3  = sys.argv[2]
+num3  = int(sys.argv[2])
 oldnum3 = num3
-num4 = sys.argv[3]
+num4 = int(sys.argv[3])
 oldnum4 = num4
-num5 = sys.argv[4]
+num5 = int(sys.argv[4])
 oldnum5 = num5
 
 #the functions
