@@ -1,14 +1,16 @@
 #!/usr/bin/python2.7
 
-num1  = int(raw_input('what is number 1?'))
+import sys
+
+num1  = int(sys.argv[0])
 oldnum1 = num1
-num2  = int(raw_input('what is number 2?'))
+num2  = int(sys.argv[1])
 oldnum2 = num2
-num3  = int(raw_input('what is number 3?'))
+num3  = int(sys.argv[2])
 oldnum3 = num3
-num4 = int(raw_input('what is number 4?'))
+num4 = int(sys.argv[3])
 oldnum4 = num4
-num5 = int(raw_input('what is number 5?'))
+num5 = int(sys.argv[4])
 oldnum5 = num5
 
 #the functions
@@ -19,6 +21,7 @@ def update():
   oldnum2 = num2
   oldnum3 = num3
   oldnum4 = num4
+  oldnum5 = num5
 #the nested loops
 for i in range(1,6):
   for j in range(1,5):
