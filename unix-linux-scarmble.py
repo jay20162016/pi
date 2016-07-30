@@ -1,10 +1,11 @@
 #!/usr/bin/python2.7
 
 # do not execute using the python command, add the execute chmod using 'chmod a+x ./scramble then execute using the ./unix-linux-scramble.py command , both commands in this file's directory/folder
+# this is tested in windows so change "if sys.argv[0] != '' or 'C:\\Users\\jayja\\github\\pi\\unix-linux-scarmble.py':" into "if sys.argv[0] != '' or [the path of this file (e.g. $HOME/github/unix-linux-scramble)]:"
 
 import sys
-print sys.argv[0]
-if sys.argv[0] != '' :
+
+if sys.argv[0] != '' or 'C:\\Users\\jayja\\github\\pi\\unix-linux-scarmble.py' :
   num1  = sys.argv[0]
 else:
   num1 = raw_input('what is number 1?')
@@ -68,5 +69,5 @@ for i in range(1,6):
   num2 = oldnum3
   num1 = oldnum2
   update()
-  print 'in loop  :'
+  print 'in loop  5 :'
   shownums()
