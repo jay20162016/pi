@@ -3,6 +3,7 @@
 # do not execute using the python command, add the execute chmod using 'chmod a+x ./scramble then execute using the ./unix-linux-scramble.py command , both commands in this file's directory/folder
 
 import sys
+print sys.argv[0]
 if sys.argv[0] != '' :
   num1  = sys.argv[0]
 else:
