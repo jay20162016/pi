@@ -32,17 +32,20 @@ for i in range(1,6):
           num2 = num1
           num1 = oldnum2
           update()
+          print 'in loop 2 :'
           shownums()
       num3 = num1
       num2 = oldnum3
       num1 = oldnum2
       update()
+      print 'in loop 3 :'
       shownums()
     num4 = num1
     num3 = oldnum4
     num2 = oldnum3
     num1 = oldnum2
     update()
+    print 'in loop 4 :'
     shownums()
   num5 = num1
   num4 = oldnum5
@@ -50,4 +53,5 @@ for i in range(1,6):
   num2 = oldnum3
   num1 = oldnum2
   update()
+  print 'in loop  :'
   shownums()
