@@ -4,7 +4,7 @@
 
 import sys
 
-if sys.argv[0] != '' :
+if sys.argv[0] != '':
   num1  = sys.argv[0]
 else:
   num1 = raw_input('what is number 1?')

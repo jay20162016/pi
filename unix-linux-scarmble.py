@@ -4,8 +4,10 @@
 # this is tested in windows so change "if sys.argv[0] != '' or 'C:\\Users\\jayja\\github\\pi\\unix-linux-scarmble.py':" into "if sys.argv[0] != '' or [the path of this file (e.g. $HOME/github/unix-linux-scramble)]:"
 
 import sys
+from os.path import *
 
-if sys.argv[0] != '' or 'C:\\Users\\jayja\\github\\pi\\unix-linux-scarmble.py' :
+
+if sys.argv[0] != '' :
   num1  = sys.argv[0]
 else:
   num1 = raw_input('what is number 1?')
