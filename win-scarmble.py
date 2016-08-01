@@ -5,7 +5,6 @@
 import sys
 from __builtin__ import raw_input
 
-print(sys.argv)
 
 try:
   num1  = sys.argv[1]
