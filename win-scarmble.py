@@ -8,27 +8,27 @@ from __builtin__ import raw_input
 print(sys.argv)
 
 try:
-  num1  = sys.argv[0]
+  num1  = sys.argv[1]
 except:
   num1 = raw_input('what is number 1?')
 oldnum1 = num1
 try:
-  num2  = sys.argv[1]
+  num2  = sys.argv[2]
 except:
   num2 = raw_input('what is number 2?')
 oldnum2 = num2
 try:
-  num3  = sys.argv[2]
+  num3  = sys.argv[3]
 except:
   num3 = raw_input('what is number 3?')
 oldnum3 = num3
 try:
-  num4 = sys.argv[3]
+  num4 = sys.argv[4]
 except:
   num4 = raw_input('what is number 4?')
 oldnum4 = num4
 try:
-  num5 = sys.argv[4]
+  num5 = sys.argv[5]
 except:
   num5 = raw_input('what is number 5?')
 oldnum5 = num5
