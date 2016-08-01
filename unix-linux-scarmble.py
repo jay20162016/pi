@@ -1,34 +1,36 @@
 #!/usr/bin/python2.7
 
 # do not execute using the python command, add the execute chmod using 'chmod a+x ./scramble then execute using the ./unix-linux-scramble.py command , both commands in this file's directory/folder
-# this is tested in windows so change "if sys.argv[0] != '' or 'C:\\Users\\jayja\\github\\pi\\unix-linux-scarmble.py':" into "if sys.argv[0] != '' or [the path of this file (e.g. $HOME/github/unix-linux-scramble)]:"
 
 import sys
-from os.path import *
+from __builtin__ import raw_input
+
+print(sys.argv)
 
 
-if sys.argv[0] != '' :
-  num1  = sys.argv[0]
+
+try:
+  num1  = sys.argv[1]
 else:
   num1 = raw_input('what is number 1?')
 oldnum1 = num1
 try:
-  num2  = sys.argv[1]
+  num2  = sys.argv[2]
 except:
   num2 = raw_input('what is number 2?')
 oldnum2 = num2
 try:
-  num3  = sys.argv[2]
+  num3  = sys.argv[3]
 except:
   num3 = raw_input('what is number 3?')
 oldnum3 = num3
 try:
-  num4 = sys.argv[3]
+  num4 = sys.argv[4]
 except:
   num4 = raw_input('what is number 4?')
 oldnum4 = num4
 try:
-  num5 = sys.argv[4]
+  num5 = sys.argv[5]
 except:
   num5 = raw_input('what is number 5?')
 oldnum5 = num5

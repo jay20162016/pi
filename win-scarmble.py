@@ -3,6 +3,9 @@
 # do not execute using the python command, add the execute chmod using 'chmod a+x ./win-scramble then execute using the ./scramble.py command , both commands in this file's directory/folder
 
 import sys
+from __builtin__ import raw_input
+
+print(sys.argv)
 
 if sys.argv[0] != '':
   num1  = sys.argv[0]
