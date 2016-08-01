@@ -7,9 +7,9 @@ from __builtin__ import raw_input
 
 print(sys.argv)
 
-if sys.argv[0] != '':
+try:
   num1  = sys.argv[0]
-else:
+except:
   num1 = raw_input('what is number 1?')
 oldnum1 = num1
 try:
