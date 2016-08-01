@@ -1,16 +1,15 @@
 #!/usr/bin/python2.7
 
-# do not execute using the python command, add the execute chmod using 'chmod a+x ./scramble then execute using the ./unix-linux-scramble.py command , both commands in this file's directory/folder
+# do not execute using the python command, add the execute permission using 'chmod a+x ./scramble then execute using the ./unix-linux-scramble.py command , both commands in this file's directory/folder
 
 import sys
 from __builtin__ import raw_input
 
 print(sys.argv)
 
-
 try:
   num1  = sys.argv[1]
-else:
+except:
   num1 = raw_input('what is number 1?')
 oldnum1 = num1
 try:
