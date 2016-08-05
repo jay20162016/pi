@@ -40,9 +40,13 @@ def update():
   oldnum5 = num5
 #the nested loops
 for i in range(0,5):
+  # loop 5
   for j in range(0,4):
+    # loop 4
     for k in range(0,3):
+      # loop 3
       for u in range(0,2):
+        # loop 2
           num2 = num1
           num1 = oldnum2
           update()
