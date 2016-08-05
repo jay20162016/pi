@@ -2,6 +2,7 @@
 
 import sys
 
+
 try:
   num1  = sys.argv[1]
 except:
