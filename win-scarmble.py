@@ -39,32 +39,36 @@ def update():
   oldnum5 = num5
 #the nested loops
 for i in range(0,5):
+  # loop 5
   for j in range(0,4):
+    # loop 4
     for k in range(0,3):
+    # loop 3
       for u in range(0,2):
-          num2 = num1
-          num1 = oldnum2
+          # loop 2
+          num4 = num5
+          num5 = oldnum4
           update()
           print 'in loop 2 :'
           shownums()
-      num3 = num1
-      num2 = oldnum3
-      num1 = oldnum2
+      num3 = num5
+      num4 = oldnum3
+      num5 = oldnum4
       update()
       print 'in loop 3 :'
       shownums()
-    num4 = num1
-    num3 = oldnum4
-    num2 = oldnum3
-    num1 = oldnum2
+    num2 = num5
+    num3 = oldnum2
+    num4 = oldnum3
+    num5 = oldnum4
     update()
     print 'in loop 4 :'
     shownums()
-  num5 = num1
-  num4 = oldnum5
-  num3 = oldnum4
-  num2 = oldnum3
-  num1 = oldnum2
+  num1 = num5
+  num2 = oldnum1
+  num3 = oldnum2
+  num4 = oldnum3
+  num5 = oldnum4
   update()
   print 'in loop 5 :'
   shownums()
