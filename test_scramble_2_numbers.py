@@ -24,11 +24,11 @@ def update():
 
 for u in range(0,2):
     # loop 2
+    update()
+    shownums()
     num1 = num2
     num2 = oldnum1
-    update()
-    print 'in loop 2 :'
-    shownums()
+
 
 """
 error:
